@@ -11,7 +11,7 @@ dos dados reais — **sem nenhum dado sair da máquina/servidor da empresa**.
 
 ## Por que "texto-para-SQL" e não RAG puro?
 
-Testamos as duas abordagens (o histórico de decisão está em `ARQUITETURA.md`).
+Foi testado as duas abordagens (o histórico de decisão está em `ARQUITETURA.md`).
 RAG (busca semântica) é ótimo para texto livre, mas ruim para perguntas
 numéricas agregadas ("faturamento total de janeiro"), porque ele só enxerga
 uma amostra de registros parecidos, não a tabela inteira. Por isso a
