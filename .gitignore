@@ -1,0 +1,14 @@
+# Dados reais da empresa - NUNCA sobem pro GitHub
+relatorios/*.xlsx
+relatorios/*.csv
+relatorios.db
+banco_vetorial/
+
+# Ambiente e cache Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Configurações locais
+.env
