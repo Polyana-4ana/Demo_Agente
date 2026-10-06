@@ -80,11 +80,10 @@ streamlit run streamlit_app.py
 - `.gitignore` já está configurado para nunca versionar os dados reais
   (`relatorios/*.xlsx`, `relatorios.db`) nem o banco vetorial do RAG.
 
-## Limitações conhecidas (para ajustar com o Copilot)
+## Limitações conhecidas 
 
 - **Precisão do SQL gerado ainda não foi validada com dados reais e perguntas
-  reais do gestor.** Antes de apresentar, teste bastante — ver `ESTUDO.md`
-  para como estruturar esses testes.
+  reais do gestor.
 - Modelos locais pequenos (3B) escrevem SQL simples bem, mas podem errar em
   perguntas com múltiplos filtros, `JOIN` entre tabelas, ou agregações
   aninhadas.
