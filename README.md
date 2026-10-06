@@ -100,9 +100,3 @@ streamlit run streamlit_app.py
 3. Automatizar a exportação de dados do Power BI para `./relatorios/`
 4. Adicionar suporte a múltiplas tabelas relacionadas (`JOIN`)
 
-## Como este projeto foi construído
-
-Este projeto foi desenvolvido com apoio de IA (Claude) para acelerar o
-aprendizado, mas todo código foi explicado linha a linha durante o processo.
-A partir daqui, a evolução usa o GitHub Copilot (única IA aprovada pela
-empresa) — ver `ESTUDO.md` para como conduzir essa transição com autonomia.
